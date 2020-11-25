@@ -1,3 +1,6 @@
+--------------dirsearch-----------------
+./dirsearch.py -u  https://you.integration.23andme.us/  -e js,php,bak,txt,asp,aspx,jsp,html,zip,jar,sql,json,old,gz,shtml,log,swp,yaml,yml,config,save,rsa,ppt  -x 403 -b
+
 -----------directory brute force with fuff----------
 
 ffuf -u https://medical.23andme.com/FUZZ -w /root/tools/SecLists/Discovery/Web-Content/dicc.txt -e js,php,bak,txt,asp,aspx,jsp,html,zip,jar,sql,json,old,gz,shtml,log,swp,yaml,yml,config,save,rsa,ppt -mc 200,302
