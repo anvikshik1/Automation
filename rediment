@@ -3,7 +3,7 @@
 
 -----------directory brute force with fuff----------
 
-ffuf -u https://any.com/FUZZ -w /root/tools/SecLists/Discovery/Web-Content/dicc.txt -e js,php,bak,txt,asp,aspx,jsp,html,zip,jar,sql,json,old,gz,shtml,log,swp,yaml,yml,config,save,rsa,ppt -fc 200,302
+ffuf -u https://any.com/FUZZ -w /root/tools/SecLists/Discovery/Web-Content/all.txt -e js,php,bak,txt,asp,aspx,jsp,html,zip,jar,sql,json,old,gz,shtml,log,swp,yaml,yml,config,save,rsa,ppt -fc 200,302
 
 -----------for php file-----------------
 ffuf -u https://any.com/FUZZ -w /root/tools/SecLists/Discovery/Web-Content/PHP.fuzz.txt -e js,php,bak,txt,asp,aspx,jsp,html,zip,jar,sql,json,old,gz,shtml,log,swp,yaml,yml,config,save,rsa,ppt -fc 200,302
